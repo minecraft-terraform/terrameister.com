@@ -113,7 +113,7 @@ kbd,
 samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 pre {
   white-space: pre;
@@ -308,8 +308,9 @@ hr {
 body{
   background-image: url(/img/bg4.jpg);
   background-attachment: fixed;
-  font-family: Miracode;
-  color: #ffc80f
+  xxxfont-family: Miracode;
+  xxcolor: #ffc80fl;
+  color: #ffff01;
 }
 
 
@@ -336,6 +337,10 @@ h3 {
 h4 {
   font-size: 3em;
 }
+.content li {
+  font-size: 1.6em;
+}
+
 p {
   font-size: 1.6em;
   line-height: 1.6em;
@@ -378,7 +383,7 @@ nav {
 }
 
 #logoshout{
-  top: 40px;
+  top: 30px;
   position: fixed;
   width: 100%;
   z-index: 11;
@@ -394,6 +399,7 @@ nav {
 .header {
   padding: 250px 0 100px;
   text-align: center;
+
 }
 .logo-name {
   margin-bottom: 0;
@@ -755,6 +761,27 @@ h5,
 h6 {
   color: #e700ff;
 }
+
+h1{
+  font-size: 60px !important;
+}
+h5{
+  font-size: 20px !important;
+}
+
+.card {
+  background-color: #4c3224;
+}
+
+a {
+  color: #fddd52;
+}
+a:hover {
+  color: #fddd52;
+  text-decoration: underline;
+}
+
+
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -786,8 +813,13 @@ nav {
 }
 
 .footer {
-  background-image: url('/img/hd2.png');
+  font-size: 15px;
+  background-image: url('/img/bg3.jpg');
   width: 100%;
+  text-align: center;
+  padding: 20px;
+  border-top: solid 2px black;
+  font-family: 'Miracode';
 
 }
 .blockedline {
@@ -795,7 +827,7 @@ nav {
   height: 47px;
 }
 
-.logo-link {
+.logo-name {
   color: #4518a1;
   font-family: 'Miracode';
 }
@@ -981,3 +1013,20 @@ nav {
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
