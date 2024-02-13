@@ -1,0 +1,35 @@
+- key: blog_items
+  title: Blog Items
+  hideIndex: true
+  folder: content/blog/
+  extension: md
+  previewUrlBase: /blog/
+  dataformat: yaml
+  itemtitle: Blog item
+  _mergePartial: composit_page
+  fields:
+    - key: mainContentInfo
+      type: hidden
+
+    - key: tags
+      title: Tags
+      type: chips
+
+    - key: categories
+      title: Categories
+      type: chips
+
+    - key: author
+      type: string
+
+    - key: date
+      title: Date
+      type: date
+      default: now
+
+    - key: image
+      title: Image
+      type: image-select
+      path: /static/images/blog
+      buttonTitle: Select Image
+

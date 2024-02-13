@@ -1,22 +1,32 @@
-baseURL: "https://terrameister.com/"
+baseURL: https://terrameister.com/
 title: Terrameister 2024
 canonifyurls: true
 theme: Hugo Conference
+summaryLength: 30
 params:
+  FooterText: >-
+
+    <img src="/img/terrameister2024.png" style="width:500px" />
+
+    <br/>
+
+    <a href="https://technative.eu">
+
+    <img src="/images/footer/TechNative_logo_footer.png" />
+
+    </a>
+
+    <br/>
+
+    <br/>
+
+    Het <strong>Terrameister Minecraft Coding Tournement</strong> is een
+    initiatief van <a href="https://technative.eu">TechNative B.V.
+    Amersfoort</a>.
   Name: Minecraft Coding Tournament
-  Description: Conference description
   Date: 2 maart
-  Price: Only $100
   Venue: Amersfoort
-  Address: Boulevard Kukulcan, 30
   City: Amersfoort
-
-  HomeSections:
-    - title: Info
-      class: bg-green
-      titleImage: /some/image.png
-      contentType: Schedule
-
   Sections:
     - about
     - location
@@ -169,3 +179,22 @@ params:
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo
         time: 17h00
+  menu:
+    - disabled: false
+      title: Info
+      url: /#Info
+    - disabled: false
+      title: Locatie
+      url: /#Locatie
+    - disabled: false
+      title: Agenda
+      url: /#Agenda
+    - disabled: true
+      title: FAQ
+      url: /index.html#Faq
+    - disabled: false
+      title: Tutorials
+      url: /tags/tutorial/
+    - disabled: false
+      title: Geef je op!
+      url: /#geefjeop

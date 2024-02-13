@@ -1,0 +1,84 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+  <title itemprop="name">{{ .Site.Params.Name }}</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="{{ .Site.Params.Name }}" />
+  <meta name="description" content="{{ .Site.Params.Description }}">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+</head>
+<body>
+  <div class="global">
+
+    {{ partial "nav.html" . }}
+    {{ partial "header.html" .Site.Params }}
+
+    <div class="content" id="content">
+      <div class="wrapper">
+
+        {{ range .Params.content_blocks }}
+          {{ $partialPath := printf "content_blocks/%s.html" (lower (replace .content_type "_" "-")) }}
+          {{ if templates.Exists ( printf "partials/%s" $partialPath ) }}
+            {{ if not .disabled }}
+              <a id="{{.title}}" class="hiddena" ></a>
+              <div style="
+                 {{ with .bg_image }}
+                 background-image:url(/images/backgrounds/{{.}});
+                  {{ end }}
+
+                {{ with .margin }}
+                margin: {{.}};
+                {{ end }}
+
+                {{ with .padding }}
+                padding: {{.}};
+                {{ end }}
+
+                 ">
+              {{ partial (print "content_blocks/" (lower (replace .content_type "_" "-"))) (dict "context" . "contextSite" $.Site "contextPage" $.Page )}}
+              </div>
+            {{ end }}
+          {{ else }}
+            <h5 style="color: red">ERROR: PARTIAL FILE DOES NOT EXIST:{{ $partialPath }}</h5>
+          {{ end }}
+        {{ end }}
+
+        {{ block "main" . }}{{ end }}
+
+
+        <!--
+        {{ range $section := .Site.Params.Sections }}
+          <div class="sectionbg">
+            <section class="{{ $section }}" id="{{ $section }}">
+            {{ partial $section $.Site.Params }}
+            </section>
+          </div>
+        {{ end }}
+-->
+      </div>
+    </div>
+  </div>
+
+    <footer class="footer">
+      {{ .Site.Params.FooterText| safeHTML }}
+    </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery.js"><\/script>')</script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

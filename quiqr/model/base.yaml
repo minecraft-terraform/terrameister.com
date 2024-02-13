@@ -10,7 +10,9 @@ menu:
     title: Settings
     menuItems:
        - key: mainConfig
+       - key: blog_items
        - key: homepage
+
 singles:
   - key: mainConfig
     title: Site Configuration
@@ -24,6 +26,32 @@ singles:
         title: Base URL
         type: string
         tip: Your site URL.
+
+      - key: params
+        type: pull
+        fields:
+
+        - key: Name
+          type: string
+
+        - key: menu
+          title: Menu
+          type: accordion
+          fields:
+
+            - key: disabled
+              type: boolean
+
+            - key: title
+              title: Title
+              type: string
+              arrayTitle: true
+
+            - key: url
+              type: string
+
+        - key: FooterText
+          type: markdown
 
   - key: homepage
     file: /content/_index.md
