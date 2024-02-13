@@ -1,0 +1,46 @@
+---
+fields:
+  - key: draft
+    title: Draft
+    type: boolean
+      #tip: only show locally when draft mode is enabled
+
+  - key: title
+    title: Title
+    type: string
+
+  - key: description
+    type: string
+    title: Meta Description (SEO)
+
+  - key: content_blocks
+    title: Content Blocks
+    type: accordion
+    dynFormSearchKey: content_type
+    fields:
+
+      - key: disabled
+        type: boolean
+
+      - key: title
+        title: Title
+        type: string
+        arrayTitle: true
+
+      - key: padding
+        type: string
+
+      - key: margin
+        type: string
+
+      - key: content_type
+        title: Content Type
+        type: select-from-query
+        query_glob: quiqr/model/partials/block_*.yaml
+        query_string: "#file_base_name[]"
+
+  - key: mainContent
+    title: Main Text Body (optional)
+    type: markdown
+
+

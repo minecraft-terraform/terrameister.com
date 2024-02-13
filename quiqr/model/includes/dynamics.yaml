@@ -1,0 +1,8 @@
+- key: dynbxrawhtml
+  _mergePartial: block_raw_html
+  content_type: block_raw_html
+
+- key: dynbximgparagraph
+  _mergePartial: block_img_paragraph
+  content_type: block_img_paragraph
+
