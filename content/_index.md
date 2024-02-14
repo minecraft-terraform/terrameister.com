@@ -44,20 +44,16 @@ content_blocks:
     content_type: block_img_paragraph
     resources: []
     title_position: Right
-    content: >-
-      So you want to organize a conference? That’s pretty awesome! But we know
-      that you don’t have time to create the website, since you have to worry
-      about contacting sponsors, choosing the right place, buying airplane
-      tickets for speakers and many other things.
+    content: |
+      12:00: inloop
 
+      12:30: intro + uitleg
 
-      That’s why we created this project! Conf Boilerplate is an iniciative of
-      BrazilJS Foundation that provides a simple structure built on top of
-      Docpad, a static generator in NodeJS, with all the things you need to
-      create a event. We also provide a responsive template with i18n!
+      13:00 – 15:00: let the games begin! 
 
+      15:00 – 16:00: spelen review
 
-      This is just a live demo, check our repository on Github for more details
+      16:00 – 17:00: bekend maken winnaars en afronding
     style: ImageLeft
     title_icon: minecraft-154749_1280.png
     title_image: dbd5e3a84fd0468a558a52142850b44d.png
@@ -102,20 +98,11 @@ content_blocks:
     content_type: block_img_paragraph
     subtitle: ''
     title: Locatie
-    content: >-
-      So you want to organize a conference? That’s pretty awesome! But we know
-      that you don’t have time to create the website, since you have to worry
-      about contacting sponsors, choosing the right place, buying airplane
-      tickets for speakers and many other things.
+    content: |-
 
-
-      That’s why we created this project! Conf Boilerplate is an iniciative of
-      BrazilJS Foundation that provides a simple structure built on top of
-      Docpad, a static generator in NodeJS, with all the things you need to
-      create a event. We also provide a responsive template with i18n!
-
-
-      This is just a live demo, check our repository on Github for more details
+      TechNative B.V.
+      Hardwareweg 7
+      3821 AL Amersfoort
     button:
       enable: false
       label: ''
@@ -135,6 +122,10 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
 
 
 
