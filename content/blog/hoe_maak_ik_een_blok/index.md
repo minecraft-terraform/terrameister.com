@@ -15,6 +15,11 @@ image: il_1140xN.3004388421_f94w.jpg
 ---
 
 
+```terraform
+resource "blablablab" "bloep" {
+  value = "blabla"
+}
+```
 
 ## Kitchen Sink
 
