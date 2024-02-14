@@ -1,0 +1,46 @@
+{{ with .context }}
+    <section class="section">
+      <div class="d-flex">
+        <div>
+          {{ if eq .title_position "Left"}}
+            <img loading="lazy" class="ximg-fluid xw-100" style="width:100px;" src="/images/title_icons/{{ .title_icon }}" />
+            <img loading="lazy" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
+          {{end}}
+        </div>
+        <div class="ml-auto">
+          {{ if eq .title_position "Right"}}
+            <img loading="lazy" class="ximg-fluid xw-100" style="width:100px;" src="/images/title_icons/{{ .title_icon }}" />
+            <img loading="lazy" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
+          {{end}}
+        </div>
+      </div>
+
+<ul class="speakers-list">
+{{ range .schedule }}
+  <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+
+    {{ with .photo }}
+      <span class="speaker-photo">
+        <img class="photo" src="/images/schedule/{{ . }}" itemprop="image">
+      </span>
+    {{ end }}
+
+    <h3 class="speech-title">
+      {{ with .time }}
+      <span class="speech-time">{{ . }}</span>
+      {{ end }}
+      <span>{{ .title }}</span>
+    </h3>
+
+    <h3 class="speakers-name">{{ .speaker_name }}
+      {{ if .speaker_link }}
+      <a href="{{ .speaker_link }}" target="_blank" >{{ .speaker_link_text }} </a>
+      {{ end }}
+    </h3>
+    <p class="speakers-bio">{{ .text | markdownify }}</p>
+  </li>
+{{ end }}
+</ul>
+
+    </section>
+{{end}}

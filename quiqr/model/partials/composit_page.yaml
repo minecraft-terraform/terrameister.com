@@ -1,9 +1,5 @@
 ---
 fields:
-  - key: draft
-    title: Draft
-    type: boolean
-      #tip: only show locally when draft mode is enabled
 
   - key: title
     title: Title
