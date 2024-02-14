@@ -1,6 +1,6 @@
 ---
 draft: false
-title: test
+title: Home
 content_blocks:
   - disabled: false
     content_type: block_img_paragraph
@@ -34,14 +34,16 @@ content_blocks:
     content_type: block_img_paragraph
     resources: []
     title_position: ''
-    content: ''
+    content: |
+      ;HDFGilduhygfbhbkfdhs lc fkjasdh dkjqjkh lksjdh flsjdhf
     style: ImageLeft
     image: codeimage-snippet_8.png
     padding: ''
     margin: ''
+    button: {}
   - disabled: false
     title: Agenda
-    content_type: block_img_paragraph
+    content_type: block_schedule
     resources: []
     title_position: Right
     content: >-
@@ -65,6 +67,33 @@ content_blocks:
     bg_image: bg3.jpg
     padding: 40px
     margin: 40px 0
+    schedule:
+      - name: Welkom door Bas
+        photo: 1689086700332.jpg
+        resources: []
+        time: '14.00'
+        link: Bas LinkedIn
+        link_name: https://nl.linkedin.com/in/anneveld
+        text: Ontvangst blablablabla *drankje* en meer misschien nog een M&M.
+        title: Welkom door Bas
+        speaker_name: Bas Annevelt
+        speaker_link: https://nl.linkedin.com/in/anneveld
+        speaker_link_name: linkedIn
+        speaker_link_text: Bas @ linkedIn
+      - name: Uitleg Spellen en Competitie
+        photo: 01-bearded-teacher-skin-minecraft.png
+        resources: []
+        time: '14.30'
+        link: Uitleg Spellen
+        link_name: /tags/tutorials/
+        text: >-
+          Bijvoorbeeld een link naar een [tutorial van de
+          spellen](/tags/tutorial/)
+        title: Uitleg Spellen en Competitie
+        speaker_name: ''
+        speaker_link: ''
+        speaker_link_name: bl
+        speaker_link_text: ''
   - disabled: false
     title: geefjeop
     content_type: block_img_paragraph
@@ -98,6 +127,10 @@ content_blocks:
     image: il_1140xN.3004388421_f94w.jpg
     html: |+
 
+    button:
+      enable: true
+      label: Geef je nu op
+      link: https://technative.eu/blablablablabl
   - disabled: false
     content_type: block_img_paragraph
     subtitle: ''
@@ -135,6 +168,20 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

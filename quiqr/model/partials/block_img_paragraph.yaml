@@ -34,21 +34,21 @@ fields:
     type: markdown
     multiLine: true
 
-  #  - key: button
-  #    groupdata: true
-  #    title: Button
-  #    type: nest
-  #    fields:
-  #      - key: enable
-  #        title: Enable
-  #        type: boolean
-  #      - key: label
-  #        title: Label
-  #        type: string
-  #      - key: link
-  #        title: Link
-  #        type: string
-  #
+  - key: button
+    groupdata: true
+    title: Button
+    type: nest
+    fields:
+      - key: enable
+        title: Enable
+        type: boolean
+      - key: label
+        title: Label
+        type: string
+      - key: link
+        title: Link
+        type: string
+
   - key: bg_image
     title: Background Image
     type: image-select

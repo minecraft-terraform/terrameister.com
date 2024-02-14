@@ -6,12 +6,16 @@ build:
   - key: default
     config: config.yml
 menu:
+  - key: content
+    title: Content
+    menuItems:
+       - key: homepage
+       - key: blog_items
+
   - key: settings
     title: Settings
     menuItems:
        - key: mainConfig
-       - key: blog_items
-       - key: homepage
 
 singles:
   - key: mainConfig
@@ -32,6 +36,10 @@ singles:
         fields:
 
         - key: Name
+          type: string
+          title: Header Title
+
+        - key: Date
           type: string
 
         - key: menu

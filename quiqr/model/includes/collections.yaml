@@ -11,6 +11,9 @@
     - key: mainContentInfo
       type: hidden
 
+    - key: title
+      type: string
+
     - key: tags
       title: Tags
       type: chips

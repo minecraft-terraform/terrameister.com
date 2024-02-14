@@ -6,3 +6,7 @@
   _mergePartial: block_img_paragraph
   content_type: block_img_paragraph
 
+- key: dynbxschedule
+  _mergePartial: block_schedule
+  content_type: block_schedule
+

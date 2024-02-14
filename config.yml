@@ -5,7 +5,6 @@ theme: Hugo Conference
 summaryLength: 30
 params:
   FooterText: >-
-
     <img src="/img/terrameister2024.png" style="width:500px" />
 
     <br/>
@@ -34,30 +33,10 @@ params:
     - schedule
     - sponsors
     - partners
-  Titles:
-    about: Info
-    location: Locatie
-    speakers: Speakers
-    schedule: Agenda
-    sponsors: Faq
-    contact: Contact
-    partners: Tutorials
   CallToAction:
     text: Register now!
     link: http://register.example.com
-  ForkButton:
-    repository: https://github.com/jweslley/hugo-conference/
-  Sponsors:
-    - name: Hugo
-      logo: /img/hugo.png
-      url: http://gohugo.io
-  Partners:
-    - name: Hugo
-      logo: /img/hugo.jpg
-      url: https://gohugo.io
-    - name: BrazilJS
-      logo: /img/partner.png
-      url: http://braziljs.org
+
   Schedule:
     - name: Check-in / Breakfast
       time: 9h00
