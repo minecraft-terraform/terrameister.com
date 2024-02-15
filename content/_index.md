@@ -46,7 +46,7 @@ content_blocks:
     title: Agenda
     content_type: block_schedule
     resources: []
-    title_position: Right
+    title_position: Left
     content: |
       12:00: inloop
 
@@ -62,7 +62,7 @@ content_blocks:
     title_image: dbd5e3a84fd0468a558a52142850b44d.png
     image: photo_2023-03-09_12-55-43.jpg
     padding: 40px
-    margin: 40px 0
+    margin: 80px 0
     schedule:
       - title: Inloop
         photo: 01-bearded-teacher-skin-minecraft.png
@@ -115,69 +115,7 @@ content_blocks:
         speaker_link_text: ''
         text: Prijsuitreiking met pizza!
     button: {}
-  - disabled: false
-    title: geefjeop
-    content_type: block_img_paragraph
-    resources: []
-    padding: 50px
-    margin: 50px
-    content: >+
-      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
-      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
-      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
-      Visual Studio code op de machine geïnstalleerd te hebben. 
-
-
-      Heb je vragen mail of bel gerust naar; hello@technative.eu of bel naar
-      Mandy op 06-28243568. 
-
-
-      <div class="minecraft-buttons">
-
-      <!--//- Menu-->
-
-      <div class="mc-menu">
-        <div class="mc-button full">
-          <div class="title">Singleplayerx</div>
-        </div>
-        <div class="mc-button full">
-          <div class="title">Multiplayer</div>
-        </div>
-        <div class="mc-button full">
-          <div class="title">Minecraft Realms</div>
-        </div>
-        <div class="double">
-          <div class="mc-button full">
-            <div class="title">Options</div>
-          </div>
-          <div class="mc-button full">
-            <div class="title">Quit Game</div>
-          </div>
-        </div>
-        <div class="mc-button full lang">
-          <div class="title"><img src="https://i.ibb.co/99187Lk/lang.png" alt=" Lang"/></div>
-        </div>
-      </div>
-
-
-      </div>
-
-
-
-
-
-
-    style: ImageLeft
-    title_icon: minecraft-154749_1280.png
-    title_image: f424940be7ae2c54be26a88a8fd92767.png
-    title_position: Left
-    image: il_1140xN.3004388421_f94w.jpg
-    html: |+
-
-    button:
-      enable: true
-      label: Geef je nu op
-      link: https://technative.eu/blablablablabl
+    bg_image: images2.jpg
   - disabled: false
     content_type: block_img_paragraph
     subtitle: ''
@@ -204,26 +142,22 @@ content_blocks:
     padding: ''
     margin: ''
   - disabled: false
-    title: buttons
+    title: geefjeop
     padding: ''
     margin: 60px;
     content_type: block_centercontent
     resources: []
     title_position: Left
     content: >-
-      So you want to organize a conference? That’s pretty awesome! But we know
-      that you don’t have time to create the website, since you have to worry
-      about contacting sponsors, choosing the right place, buying airplane
-      tickets for speakers and many other things.
+      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
+      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
+      Visual Studio code op de machine geïnstalleerd te hebben.
 
 
-      That’s why we created this project! Conf Boilerplate is an iniciative of
-      BrazilJS Foundation that provides a simple structure built on top of
-      Docpad, a static generator in NodeJS, with all the things you need to
-      create a event. We also provide a responsive template with i18n!
-
-
-      This is just a live demo, check our repository on Github for more details
+      Heb je vragen mail of bel gerust naar;
+      [hello@technative.eu](hello@technative.eu) of bel naar Mandy op
+      06-28243568.
     button:
       enable: false
       label: ''
@@ -234,10 +168,10 @@ content_blocks:
       <!--//- Menu-->
       <div class="mc-menu">
         <div class="mc-button full">
-          <div class="title">Singleplayer</div>
+          <div class="title" onclick="window.location.href='https://technative.eu/pages/minecraft-terraform-event-2024/';">Singleplayer</div>
         </div>
         <div class="mc-button full">
-          <div class="title">Multiplayer</div>
+          <div class="title" onclick="window.location.href='https://technative.eu/pages/minecraft-terraform-event-2024/';">Multiplayer</div>
         </div>
       </div>
 
@@ -250,6 +184,52 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
