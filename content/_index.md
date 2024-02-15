@@ -115,7 +115,7 @@ content_blocks:
         speaker_link_text: ''
         text: Prijsuitreiking met pizza!
     button: {}
-    bg_image: images2.jpg
+    bg_image: e2365a3016717dd502703572db45cb1d--block-wall-wood-blocks.jpg
   - disabled: false
     content_type: block_img_paragraph
     subtitle: ''
@@ -178,12 +178,16 @@ content_blocks:
       </div>
     title_icon: minecraft-154749_1280.png
     title_image: f424940be7ae2c54be26a88a8fd92767.png
-    bg_image_2: e2365a3016717dd502703572db45cb1d--block-wall-wood-blocks.jpg
+    bg_image_2: Screenshot from 2024-02-15 15-46-46.png
 description: ''
 mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
 
 
 

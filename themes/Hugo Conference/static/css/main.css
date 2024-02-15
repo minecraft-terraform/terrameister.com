@@ -9,8 +9,7 @@
 
 @font-face {
     font-family: 'minecraft';
-    src: url('/minecraft.woff2') format('woff2'),
-        url('/minecraft.woff') format('woff');
+    src: url('/minecraft.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -309,7 +308,7 @@ hr {
 }
 .content section {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .content .sectionbg {
@@ -324,10 +323,6 @@ body{
   color: #ffff01;
   text-shadow: 1px 1px 2px black;
 }
-
-
-
-
 
 
 /* =============================================================================
@@ -616,6 +611,7 @@ nav {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
+
   /* schedule */
   .schedule-tbl {
     padding: 1px;
@@ -670,8 +666,15 @@ nav {
   .form .btn {
     margin-bottom: 50px;
   }
+
+
 }
+
 @media only screen and (max-width: 480px) {
+}
+
+
+@media only screen and (max-width: 180px) {
   /* nav */
   nav {
     display: none;
@@ -1014,6 +1017,8 @@ nav {
     background-size: auto 100%;
   }
 }
+
+
 @media only screen and (max-width: 480px) {
   /* speakers */
   .speaker-photo .photo {

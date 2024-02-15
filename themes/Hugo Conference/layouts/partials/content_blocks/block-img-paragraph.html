@@ -4,13 +4,13 @@
         <div>
           {{ if eq .title_position "Left"}}
             <img loading="lazy" class="ximg-fluid xw-100" style="width:100px;" src="/images/title_icons/{{ .title_icon }}" />
-            <img loading="lazy" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
+            <img loading="lazy" style="width:50%;" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
           {{end}}
         </div>
         <div class="ml-auto">
           {{ if eq .title_position "Right"}}
             <img loading="lazy" class="ximg-fluid xw-100" style="width:100px;" src="/images/title_icons/{{ .title_icon }}" />
-            <img loading="lazy" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
+            <img loading="lazy" style="width:50%;" class="ximg-fluid xw-100" src="/images/title_images/{{ .title_image }}" />
           {{end}}
         </div>
       </div>
@@ -35,8 +35,6 @@
           </div>
         </div>
       </div>
-
-    </section>
 
   {{end}}
 
