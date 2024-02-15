@@ -112,6 +112,37 @@ content_blocks:
       This is just a live demo, check our repository on Github for more details
 
 
+      <div class="minecraft-buttons">
+
+      <!--//- Menu-->
+
+      <div class="mc-menu">
+        <div class="mc-button full">
+          <div class="title">Singleplayerx</div>
+        </div>
+        <div class="mc-button full">
+          <div class="title">Multiplayer</div>
+        </div>
+        <div class="mc-button full">
+          <div class="title">Minecraft Realms</div>
+        </div>
+        <div class="double">
+          <div class="mc-button full">
+            <div class="title">Options</div>
+          </div>
+          <div class="mc-button full">
+            <div class="title">Quit Game</div>
+          </div>
+        </div>
+        <div class="mc-button full lang">
+          <div class="title"><img src="https://i.ibb.co/99187Lk/lang.png" alt=" Lang"/></div>
+        </div>
+      </div>
+
+
+      </div>
+
+
 
 
 
@@ -150,11 +181,45 @@ content_blocks:
     image: s189772745713394276_p1765_i143_w750.jpeg
     padding: ''
     margin: ''
+  - disabled: false
+    title: buttons
+    padding: ''
+    margin: ''
+    content_type: block_raw_html
+    resources: []
+    title_position: ''
+    content: ''
+    button:
+      enable: false
+      label: ''
+      link: ''
+    style: ''
+    html: |-
+      <div class="minecraft-buttons">
+      <!--//- Menu-->
+      <div class="mc-menu">
+        <div class="mc-button full">
+          <div class="title">Singleplayer</div>
+        </div>
+        <div class="mc-button full">
+          <div class="title">Multiplayer</div>
+        </div>
+      </div>
+
+      </div>
 description: ''
 mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
+
+
+
+
 
 
 
