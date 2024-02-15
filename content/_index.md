@@ -10,19 +10,17 @@ content_blocks:
     style: ImageRight
     title: Info
     content: >-
-      So you want to *organize* a conference? That's pretty awesome! But we know
-      that you don't have time to create the website, since you have to worry
-      about contacting sponsors, choosing the right place, buying airplane
-      tickets for speakers and many other things.
+      Op zaterdag 2 maart 2024 organiseren wij TerraMeister 2024 naar aanleiding
+      van de stage opdracht van Mark. 
 
 
-      That's why we created this project! Conf Boilerplate is an iniciative of
-      BrazilJS Foundation that provides a simple structure built on top of
-      Docpad, a static generator in NodeJS, with all the things you need to
-      create a event. We also provide a responsive template with i18n!
+      We hebben met veel plezier een aantal Terraform-Minecraft spellen
+      ontworpen die we graag in een wedstrijd vorm met elkaar willen gaan
+      spelen. Bij een wedstrijd hoort natuurlijk ook een klein prijsje voor de
+      winnaar.
 
 
-      This is just a live demo, check our repository on Github for more details
+      Zin om mee te doen? Meld je aan via de 'geef je op' knop. 
     subtitle: ''
     title_image: info.png
     title_position: Left
@@ -34,8 +32,11 @@ content_blocks:
     content_type: block_img_paragraph
     resources: []
     title_position: ''
-    content: |
-      ;HDFGilduhygfbhbkfdhs lc fkjasdh dkjqjkh lksjdh flsjdhf
+    content: >
+      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
+      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
+      Visual Studio code op de machine geïnstalleerd te hebben. 
     style: ImageLeft
     image: codeimage-snippet_8.png
     padding: ''
@@ -63,32 +64,57 @@ content_blocks:
     padding: 40px
     margin: 40px 0
     schedule:
+      - title: Inloop
+        photo: 01-bearded-teacher-skin-minecraft.png
+        resources: []
+        time: 12:00 CET
+        speaker_name: ''
+        speaker_link: ''
+        speaker_link_text: ''
+        text: 'Instellen laptops en klaar maken voor de wedstrijd! '
       - name: Welkom door Bas
         photo: 1689086700332.jpg
         resources: []
-        time: '14.00'
+        time: 12:30 CET
         link: Bas LinkedIn
         link_name: https://nl.linkedin.com/in/anneveld
-        text: Ontvangst blablablabla *drankje* en meer misschien nog een M&M.
-        title: Welkom door Bas
-        speaker_name: Bas Annevelt
-        speaker_link: https://nl.linkedin.com/in/anneveld
+        text: Wat gaan we doen vandaag?
+        title: Welkom door Bas en Mark
+        speaker_name: Bas Anneveld & Mark Simoniants
+        speaker_link: >-
+          https://nl.linkedin.com/in/anneveld /
+          https://www.linkedin.com/in/mark-simoniants/
         speaker_link_name: linkedIn
-        speaker_link_text: Bas @ linkedIn
+        speaker_link_text: ''
       - name: Uitleg Spellen en Competitie
         photo: 01-bearded-teacher-skin-minecraft.png
         resources: []
-        time: '14.30'
+        time: 13:00 CET
         link: Uitleg Spellen
         link_name: /tags/tutorials/
         text: >-
           Bijvoorbeeld een link naar een [tutorial van de
           spellen](/tags/tutorial/)
-        title: Uitleg Spellen en Competitie
+        title: Let the games begin
         speaker_name: ''
         speaker_link: ''
         speaker_link_name: bl
         speaker_link_text: ''
+      - title: Wat is er gebouwd?
+        resources: []
+        time: 15:00 CET
+        speaker_name: ''
+        speaker_link: ''
+        speaker_link_text: ''
+        text: Wat is er gebouwd tijdens de wedstrijden?
+      - title: Winnaar
+        resources: []
+        time: 16:00 CET
+        speaker_name: ''
+        speaker_link: ''
+        speaker_link_text: ''
+        text: Prijsuitreiking met pizza!
+    button: {}
   - disabled: false
     title: geefjeop
     content_type: block_img_paragraph
@@ -96,19 +122,14 @@ content_blocks:
     padding: 50px
     margin: 50px
     content: >+
-      So you want to organize a conference? That’s pretty awesome! But we know
-      that you don’t have time to create the website, since you have to worry
-      about contacting sponsors, choosing the right place, buying airplane
-      tickets for speakers and many other things.
+      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
+      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
+      Visual Studio code op de machine geïnstalleerd te hebben. 
 
 
-      That’s why we created this project! Conf Boilerplate is an iniciative of
-      BrazilJS Foundation that provides a simple structure built on top of
-      Docpad, a static generator in NodeJS, with all the things you need to
-      create a event. We also provide a responsive template with i18n!
-
-
-      This is just a live demo, check our repository on Github for more details
+      Heb je vragen mail of bel gerust naar; hello@technative.eu of bel naar
+      Mandy op 06-28243568. 
 
 
       <div class="minecraft-buttons">
@@ -163,9 +184,11 @@ content_blocks:
     title: Locatie
     content: |-
 
-      TechNative B.V.
-      Hardwareweg 7
-      3821 AL Amersfoort
+      **TechNative B.V.**
+
+      **Hardwareweg 7**
+
+      **3821 AL Amersfoort**
     button:
       enable: false
       label: ''
@@ -177,7 +200,7 @@ content_blocks:
     title_icon: minecraft-154749_1280.png
     title_image: 808d2d3bd4a8d8f828b42495f707a221.png
     title_position: Left
-    image: s189772745713394276_p1765_i143_w750.jpeg
+    image: map2.png
     padding: ''
     margin: ''
   - disabled: false
