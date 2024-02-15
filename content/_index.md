@@ -46,7 +46,7 @@ content_blocks:
     title: Agenda
     content_type: block_schedule
     resources: []
-    title_position: Right
+    title_position: Left
     content: |
       12:00: inloop
 
@@ -61,9 +61,8 @@ content_blocks:
     title_icon: minecraft-154749_1280.png
     title_image: dbd5e3a84fd0468a558a52142850b44d.png
     image: photo_2023-03-09_12-55-43.jpg
-    bg_image: bg3.jpg
     padding: 40px
-    margin: 40px 0
+    margin: 80px 0
     schedule:
       - title: Inloop
         photo: 01-bearded-teacher-skin-minecraft.png
@@ -116,38 +115,7 @@ content_blocks:
         speaker_link_text: ''
         text: Prijsuitreiking met pizza!
     button: {}
-  - disabled: false
-    title: geefjeop
-    content_type: block_img_paragraph
-    resources: []
-    padding: 50px
-    margin: 50px
-    content: >+
-      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
-      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
-      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
-      Visual Studio code op de machine geïnstalleerd te hebben. 
-
-
-      Heb je vragen mail of bel gerust naar; hello@technative.eu of bel naar
-      Mandy op 06-28243568. 
-
-
-
-
-
-
-    style: ImageLeft
-    title_icon: minecraft-154749_1280.png
-    title_image: f424940be7ae2c54be26a88a8fd92767.png
-    title_position: Left
-    image: il_1140xN.3004388421_f94w.jpg
-    html: |+
-
-    button:
-      enable: true
-      label: Geef je nu op
-      link: https://technative.eu/blablablablabl
+    bg_image: e2365a3016717dd502703572db45cb1d--block-wall-wood-blocks.jpg
   - disabled: false
     content_type: block_img_paragraph
     subtitle: ''
@@ -173,11 +141,99 @@ content_blocks:
     image: map2.png
     padding: ''
     margin: ''
+  - disabled: false
+    title: geefjeop
+    padding: ''
+    margin: 60px;
+    content_type: block_centercontent
+    resources: []
+    title_position: Left
+    content: >-
+      Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
+      verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
+      Visual Studio code op de machine geïnstalleerd te hebben.
+
+
+      Heb je vragen mail of bel gerust naar;
+      [hello@technative.eu](hello@technative.eu) of bel naar Mandy op
+      06-28243568.
+    button:
+      enable: false
+      label: ''
+      link: ''
+    style: ''
+    html: |-
+      <div class="minecraft-buttons">
+      <!--//- Menu-->
+      <div class="mc-menu">
+        <div class="mc-button full">
+          <div class="title" onclick="window.location.href='https://technative.eu/pages/minecraft-terraform-event-2024/';">Singleplayer</div>
+        </div>
+        <div class="mc-button full">
+          <div class="title" onclick="window.location.href='https://technative.eu/pages/minecraft-terraform-event-2024/';">Multiplayer</div>
+        </div>
+      </div>
+
+      </div>
+    title_icon: minecraft-154749_1280.png
+    title_image: f424940be7ae2c54be26a88a8fd92767.png
+    bg_image_2: Screenshot from 2024-02-15 15-46-46.png
 description: ''
 mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

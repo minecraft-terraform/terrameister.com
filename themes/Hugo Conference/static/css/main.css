@@ -7,9 +7,13 @@
     font-display: swap;
 }
 
-
-
-
+@font-face {
+    font-family: 'minecraft';
+    src: url('/minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* =============================================================================
    RESET
@@ -304,7 +308,7 @@ hr {
 }
 .content section {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .content .sectionbg {
@@ -321,15 +325,15 @@ body{
 }
 
 
-
-
-
-
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
 
+pre, code, kbd, samp {
+  font-family: Miracode;
+}
 
+h1,
 h2,
 h3,
 h4 {
@@ -373,7 +377,9 @@ nav {
   display: table;
 
   text-align: center;
-  font-family: 'Miracode';
+  xxfont-family: 'Miracode';
+
+  font-family: minecraft;
   font-weight: normal;
   font-style: normal;
   font-size: 15px;
@@ -390,7 +396,7 @@ nav {
 }
 
 #logoshout{
-  top: 30px;
+  top: 70px;
   position: fixed;
   width: 100%;
   z-index: 11;
@@ -605,6 +611,7 @@ nav {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
+
   /* schedule */
   .schedule-tbl {
     padding: 1px;
@@ -659,8 +666,15 @@ nav {
   .form .btn {
     margin-bottom: 50px;
   }
+
+
 }
+
 @media only screen and (max-width: 480px) {
+}
+
+
+@media only screen and (max-width: 180px) {
   /* nav */
   nav {
     display: none;
@@ -1003,6 +1017,8 @@ nav {
     background-size: auto 100%;
   }
 }
+
+
 @media only screen and (max-width: 480px) {
   /* speakers */
   .speaker-photo .photo {
@@ -1024,16 +1040,100 @@ nav {
 
 
 
+div.minecraft-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
+/* Minecraft Style Menu */
+.mc-menu {
+  --btn-size: 30pt;
+  display: grid;
+  grid-template-columns: var(--btn-size) calc(var(--btn-size) * 10) var(--btn-size);
+  grid-template-rows: repeat(3, var(--btn-size)) 16px var(--btn-size);
+  grid-template-areas: ". 		first 		." ". 		second 		." ". 		third 		." ".		.					." "lang fourth 		.";
+  grid-gap: 8px;
+}
+.mc-menu .mc-button:nth-child(1) {
+  grid-area: first;
+}
+.mc-menu .mc-button:nth-child(2) {
+  grid-area: second;
+}
+.mc-menu .mc-button:nth-child(3) {
+  grid-area: third;
+}
+.mc-menu .double {
+  grid-area: fourth;
+}
+.mc-menu .double .mc-button:nth-child(1) {
+  grid-area: left;
+}
+.mc-menu .double .mc-button:nth-child(2) {
+  grid-area: right;
+}
+.mc-menu .mc-button:nth-child(5) {
+  grid-area: lang;
+}
+.mc-menu .double {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left right";
+  grid-gap: 8px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* Minecraft Style Button */
+.mc-button {
+  height: var(--btn-size);
+  width: calc(var(--btn-size) * 10);
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+  background: #999 url("https://i.ibb.co/rb2TWXL/bgbtn.png") center/cover;
+  image-rendering: pixelated;
+  border: 2px solid #000;
+  /* Mouse over */
+  /* Button title */
+  /* Others */
+}
+.mc-button:hover .title {
+  background-color: rgba(100, 100, 255, 0.45);
+  text-shadow: 2px 2px #202013CC;
+  color: #FFFFA0;
+}
+.mc-button:active .title {
+  box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+}
+.mc-button .title {
+  font-family: 'minecraft';
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #DDD;
+  text-shadow: 2px 2px #000A;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+}
+.mc-button.full {
+  width: 100%;
+  height: 100%;
+}
+.mc-button.lang img {
+  width: 26px;
+  height: 26px;
+}
+.mc-button.lang .title {
+  padding-bottom: 0;
+}
