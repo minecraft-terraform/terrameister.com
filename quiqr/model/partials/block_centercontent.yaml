@@ -1,0 +1,41 @@
+key: dynschedule
+title: About product
+fields:
+
+  - key: title_info
+    type: info
+    content: |
+      create titles here: https://fontmeme.com/minecraft-font/
+
+  - key: title_icon
+    type: image-select
+    path: "/static/images/title_icons"
+    buttonTitle: Select Title Icon
+
+  - key: title_image
+    type: image-select
+    path: "/static/images/title_images"
+    buttonTitle: Select Title Image
+
+  - key: title_position
+    type: select
+    arrayTitle: true
+    options:
+    - Left
+    - Right
+
+  - key: bg_image_2
+    title: Background Image
+    type: image-select
+    path: "/static/images/backgrounds"
+    buttonTitle: Select Background Image
+
+  - key: content
+    title: Content
+    type: markdown
+    multiLine: true
+
+  - key: html
+    title: HTML
+    type: string
+    multiLine: true

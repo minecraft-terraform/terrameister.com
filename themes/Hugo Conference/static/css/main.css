@@ -7,9 +7,14 @@
     font-display: swap;
 }
 
-
-
-
+@font-face {
+    font-family: 'minecraft';
+    src: url('/minecraft.woff2') format('woff2'),
+        url('/minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* =============================================================================
    RESET
@@ -329,7 +334,11 @@ body{
    BASIC STYLES
    ========================================================================== */
 
+pre, code, kbd, samp {
+  font-family: Miracode;
+}
 
+h1,
 h2,
 h3,
 h4 {
@@ -373,7 +382,9 @@ nav {
   display: table;
 
   text-align: center;
-  font-family: 'Miracode';
+  xxfont-family: 'Miracode';
+
+  font-family: minecraft;
   font-weight: normal;
   font-style: normal;
   font-size: 15px;
@@ -390,7 +401,7 @@ nav {
 }
 
 #logoshout{
-  top: 30px;
+  top: 70px;
   position: fixed;
   width: 100%;
   z-index: 11;
@@ -1098,6 +1109,8 @@ div.minecraft-buttons {
   box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
 }
 .mc-button .title {
+  font-family: 'minecraft';
+  font-size: 18px;
   width: 100%;
   height: 100%;
   padding-bottom: 0.3em;

@@ -10,3 +10,7 @@
   _mergePartial: block_schedule
   content_type: block_schedule
 
+- key: dynbxcentercontent
+  _mergePartial: block_centercontent
+  content_type: block_centercontent
+
