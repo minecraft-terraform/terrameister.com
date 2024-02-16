@@ -3,6 +3,10 @@ title: Terrameister 2024
 canonifyurls: true
 theme: Hugo Conference
 summaryLength: 30
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 params:
   FooterText: >-
     <img src="/img/terrameister2024.png" style="width:500px" />
@@ -36,7 +40,6 @@ params:
   CallToAction:
     text: Register now!
     link: http://register.example.com
-
   Schedule:
     - name: Check-in / Breakfast
       time: 9h00
@@ -172,8 +175,8 @@ params:
       title: FAQ
       url: /index.html#Faq
     - disabled: false
-      title: Tutorials
-      url: /tags/tutorial/
+      title: Opdrachten
+      url: /tags/opdracht/
     - disabled: false
       title: Geef je op!
       url: /#geefjeop
