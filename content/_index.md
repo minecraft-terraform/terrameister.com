@@ -62,10 +62,17 @@ content_blocks:
     title_image: dbd5e3a84fd0468a558a52142850b44d.png
     image: photo_2023-03-09_12-55-43.jpg
     padding: 40px
-    margin: 80px 0
+    margin: 80px
     schedule:
+      - title: ''
+        resources: []
+        time: ''
+        speaker_name: ''
+        speaker_link: ''
+        speaker_link_text: ''
+        text: ''
       - title: Inloop
-        photo: 01-bearded-teacher-skin-minecraft.png
+        photo: modèle 3D de Steve Minecraft - TurboSquid 1017399.jpeg
         resources: []
         time: 12:00 CET
         speaker_name: ''
@@ -73,7 +80,7 @@ content_blocks:
         speaker_link_text: ''
         text: 'Instellen laptops en klaar maken voor de wedstrijd! '
       - name: Welkom door Bas
-        photo: 1689086700332.jpg
+        photo: Best Teacher Skins for Minecraft (All Free) – FandomSpot (1).jpeg
         resources: []
         time: 12:30 CET
         link: Bas LinkedIn
@@ -87,14 +94,12 @@ content_blocks:
         speaker_link_name: linkedIn
         speaker_link_text: ''
       - name: Uitleg Spellen en Competitie
-        photo: 01-bearded-teacher-skin-minecraft.png
+        photo: Liqrmx Minecraft Skins.jpeg
         resources: []
         time: 13:00 CET
         link: Uitleg Spellen
         link_name: /tags/tutorials/
-        text: >-
-          Bijvoorbeeld een link naar een [tutorial van de
-          spellen](/tags/tutorial/)
+        text: 'Tijd om keihard te strijden voor de overwinning. '
         title: Let the games begin
         speaker_name: ''
         speaker_link: ''
@@ -107,6 +112,7 @@ content_blocks:
         speaker_link: ''
         speaker_link_text: ''
         text: Wat is er gebouwd tijdens de wedstrijden?
+        photo: Best Teacher Skins for Minecraft (All Free) – FandomSpot (2).jpeg
       - title: Winnaar
         resources: []
         time: 16:00 CET
@@ -114,6 +120,7 @@ content_blocks:
         speaker_link: ''
         speaker_link_text: ''
         text: Prijsuitreiking met pizza!
+        photo: Aspectos de Minecraft.jpeg
     button: {}
     bg_image: e2365a3016717dd502703572db45cb1d--block-wall-wood-blocks.jpg
   - disabled: false
@@ -184,6 +191,22 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
