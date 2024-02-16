@@ -126,7 +126,7 @@ kbd,
 samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 pre {
   white-space: pre;
@@ -340,6 +340,7 @@ h4 {
   font-size: 5em;
   font-weight: normal;
   margin-bottom: .4em;
+  margin-top: 1.4em;
   letter-spacing: -0.02em;
 }
 h3 {
@@ -348,8 +349,23 @@ h3 {
 h4 {
   font-size: 3em;
 }
-.content li {
+.content ul li {
   font-size: 1.6em;
+  list-style: disc;
+  list-style-position: inside;
+}
+.content ol li {
+  font-size: 1.6em;
+  list-style: bullet;
+  list-style-position: inside;
+}
+
+.content li.speakers-item {
+  list-style: none;
+}
+
+.content blockquote {
+  font-style: italic;
 }
 
 p {
@@ -666,8 +682,6 @@ nav {
   .form .btn {
     margin-bottom: 50px;
   }
-
-
 }
 
 @media only screen and (max-width: 480px) {
