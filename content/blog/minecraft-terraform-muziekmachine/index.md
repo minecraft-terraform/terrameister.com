@@ -129,6 +129,11 @@ Vergeet niet dat je alle veranderingen moet bevestigen door "yes" te typen na
 
 ##### note block
 
+Om een redstone mechanisme te starten moet je een actievatie middel hebben, zo als:
+- Button
+- Lever
+- Pressure Plate
+
 Een `note_block` bepaald de toonhoogte van een noot.
 
 In onderstaand voorbeeld laten we zien hoe je de ingestelde noot, het geluid en
