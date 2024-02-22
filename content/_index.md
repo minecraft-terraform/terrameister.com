@@ -131,7 +131,7 @@ content_blocks:
 
       **TechNative B.V.**
 
-      **Databankweg 7**
+      **Hardwareweg 7**
 
       **3821 AL Amersfoort**
     button:
@@ -191,8 +191,6 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
-
-
 
 
 

@@ -60,24 +60,24 @@ Om een module voor de puzzel aan te maken zijn er een paar dingen nodig:
 
 Hieronder staat een uitgewerkt voorbeeld deze opdracht:
 
-<img class="img-fluid" src="images/code.png" width="28%" height="auto"/>
+<img class="img-fluid" src="/images/code.png" width="28%" height="auto"/>
 
-<img class="img-fluid" src="images/beginpunt.png" width="40%" height="auto"/>
+<img class="img-fluid" src="/images/beginpunt.png" width="40%" height="auto"/>
 
 Vervolgens moet je `terraform init` in de console uitvoeren en `terraform apply`
 
 Vergeet niet dat je alle veranderingen moet bevestigen door "yes" te typen na
 `terraform apply`.
 
-<img class="img-fluid" src="images/apply.png" width="40%" height="auto"/>
+<img class="img-fluid" src="/images/apply.png" width="40%" height="auto"/>
 
 ### Minecraft informatie over puzzels
 
 Je hebt 19 puzzelstukjes die te vinden zijn in de map modules/puzzles:
 
-<img class="img-fluid" src="images/modules.png" width="25%" height="auto"/>
+<img class="img-fluid" src="/images/modules.png" width="25%" height="auto"/>
 
 Voor een beter overzicht kun je hier een map vinden met alle puzzelstukjes in de volgorde 1 t/m 19:
 
-<img class="img-fluid" src="images/puzzle.png" width="40%" height="auto"/>
+<img class="img-fluid" src="/images/puzzle.png" width="40%" height="auto"/>
 

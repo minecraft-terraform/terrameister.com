@@ -80,9 +80,9 @@ Er is ook een uitzondering voor de module "diagonal" (en alles wat met een diago
 
 Je hebt 7 verschillende modules die te vinden zijn in de map modules/speed_building dat jouw bouw makkelijker maken:
 
-<img class="img-fluid" src="images/modules1.png" width="25%" height="auto"/>
+<img class="img-fluid" src="/images/modules1.png" width="25%" height="auto"/>
 
 Op het moment dat je bouwt en de begin-coördinaten aangeeft, dan wordt vervolgens een module gebouwd met de coördinaten zoals in onderstaand voorbeeld bij het plus-teken (+):
 
-<img class="img-fluid" src="images/beginpunt1.png" width="40%" height="auto"/>
+<img class="img-fluid" src="/images/beginpunt1.png" width="40%" height="auto"/>
 
