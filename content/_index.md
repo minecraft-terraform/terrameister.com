@@ -35,8 +35,8 @@ content_blocks:
     content: >
       Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
       verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
-      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
-      Visual Studio code op de machine geïnstalleerd te hebben. 
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie (jave
+      editie) en Visual Studio code op de machine geïnstalleerd te hebben. 
     style: ImageLeft
     image: codeimage-snippet_8.png
     padding: ''
@@ -158,8 +158,8 @@ content_blocks:
     content: >-
       Aan deze wedstrijd zijn geen deelnemerskosten verbonden. TechNative
       verzorgt het eten en drinken. Wel vragen we aan de deelnemers om eigen
-      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie en
-      Visual Studio code op de machine geïnstalleerd te hebben.
+      laptop mee te nemen, in het bezit te zijn van een Minecraft licentie (java
+      editie) en Visual Studio code op de machine geïnstalleerd te hebben.
 
 
       Heb je vragen mail of bel gerust naar;
@@ -191,6 +191,10 @@ mainContentInfo: ''
 content_blocks_below_main: ''
 
 ---
+
+
+
+
 
 
 
